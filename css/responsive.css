@@ -1,0 +1,665 @@
+@media (max-width: 767.98px) {
+  .page_header .burger_menu {
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 22px;
+  }
+  .page_header .nav_links {
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    background-color: rgb(13, 27, 27);
+    height: 100vh;
+    width: 100%;
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-top: 1px solid rgb(174, 154, 154);
+    z-index: 9999;
+  }
+  .page_header .nav_links ul {
+    display: block;
+    padding: 10px 0px;
+  }
+  .page_header .nav_links ul li a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 50%;
+    padding: 12px 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 20px;
+  }
+  .page_header .nav_links ul li {
+    margin: 0px;
+    position: relative;
+  }
+  .page_header .nav_links ul li a::before {
+    display: none;
+  }
+  .page_header .nav_links ul li a:hover {
+    color: rgb(17, 251, 244);
+  }
+  .page_header .nav_links.main {
+    left: 0%;
+    border-radius: unset;
+    display: unset;
+    margin: 0px;
+  }
+  .page_header .nav_links.main:hover {
+    box-shadow: unset;
+    overflow: auto;
+  }
+  .hero_section .hero_title {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+  .section {
+    padding: 100px 0px;
+    overflow: hidden;
+  }
+  .partner_col .main_title {
+    font-size: 32px;
+  }
+  .partner_row .partner_col.padding {
+    padding-left: 0px;
+  }
+  .partner_card {
+    margin-bottom: 30px;
+  }
+  .choose_col h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+  .section_title p {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .mission_title p {
+    font-size: 32px;
+  }
+  .form_col strong {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+  .form_col {
+    margin-bottom: 20px;
+  }
+  .study_col {
+    margin-bottom: 35px;
+  }
+  .hero_title {
+    margin-top: 70px;
+  }
+  .partner_row {
+    margin-bottom: 35px;
+  }
+  .auth_btn a {
+    padding: 9px 37px;
+    font-size: 18px;
+  }
+  .logo a img {
+    width: 100%;
+  }
+  .mission_title {
+    text-align: center;
+    width: 100%;
+  }
+  .choose_content a svg {
+    margin-left: 10px;
+  }
+  .adds_col h2 {
+    font-size: 29px;
+    margin: 35px 0px;
+    line-height: 44px;
+  }
+  .number_mark h3 {
+    font-size: 48px;
+  }
+  .number_mark span {
+    font-size: 14px;
+  }
+  .idication_line {
+    margin-bottom: 54px;
+  }
+  .footer_row {
+    display: block;
+    width: 100%;
+  }
+  .footer_small_wrapper {
+    display: block;
+    width: 100%;
+  }
+  .footer_col {
+    width: 100%;
+  }
+  .footer_col.min {
+    width: 100%;
+  }
+  .blog_title p {
+    font-size: 32px;
+  }
+  .footer_small_wrapper .footer_col.min {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .footer_small_wrapper .footer_col.sem {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .copy_right {
+    display: block;
+  }
+  .social_icon {
+    margin-bottom: 15px;
+  }
+  .footer_col button {
+    width: 85%;
+  }
+  .footer_col input {
+    width: 100%;
+  }
+  .listing span {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .testimonial_wrapper {
+    padding: 15px;
+  }
+  .hero_section .swiper-slide {
+    height: 100%;
+  }
+  .hero_section {
+    overflow: hidden;
+  }
+  .choose_card {
+    padding: 20px;
+  }
+  .header_wrapper {
+    display: block;
+  }
+  .page_header {
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 2px;
+  }
+  .auth_btn {
+    position: absolute;
+    right: 22px;
+    bottom: 21px;
+  }
+  .page_header .nav_wrapper {
+    display: block;
+    height: 164px;
+  }
+  .nav_img img {
+    width: 200px;
+  }
+  .page_header .nav_links ul li a span {
+    display: none;
+  }
+  .nav_links ul li:hover .dropdown {
+    min-width: unset;
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    overflow: auto;
+  }
+  .icon button {
+    color: rgb(0, 251, 244);
+    height: 24px;
+    width: 48px;
+    border-radius: 13px;
+    background: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid rgb(0, 251, 244);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: translate(-50%, 50%);
+    font-size: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_links ul li .dropdown.main {
+    display: block;
+  }
+  .nav_links ul li .dropdown {
+    display: none;
+  }
+  .page_header .nav_links .dropdown li a {
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  .workflow p {
+    font-size: 14px;
+  }
+  .partner_col .partner_discription {
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(164, 166, 166);
+  }
+  .partner_numbring {
+    display: block;
+  }
+  .number_mark {
+    margin-bottom: 10px;
+  }
+  .study_content {
+    visibility: visible;
+    opacity: 1;
+  }
+  .study_col .study_content svg {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+  }
+  .testimonial_wrapper p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 46px;
+  }
+  .choose_min_row .row {
+    display: block;
+  }
+  .choose_min_row .col {
+    margin-bottom: 35px;
+  }
+  .coustem_container .container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .adds_part_row.margin {
+    margin-bottom: 20px;
+  }
+  .hero_main_wrapper {
+    padding: 150px 0px 200px;
+  }
+  .banner_discription {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .partner_cards_row {
+    margin-top: 190px;
+  }
+  .choose_col p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .mission_wrapper {
+    display: block;
+  }
+  .study_image_profile {
+    width: 100%;
+  }
+  .blog_col {
+    margin-bottom: 30px;
+  }
+  .blog_content a {
+    margin: 20px 0px;
+  }
+  .footer_log a img {
+    width: 100%;
+  }
+  .footer_log p {
+    margin-bottom: 30px;
+  }
+  .testimonial_wrapper svg path {
+    fill: rgb(0, 0, 0);
+  }
+  .profile_testimonial {
+    padding: 20px 0px;
+  }
+}
+@media (max-width: 575.98px) {
+  .page_header .burger_menu {
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 22px;
+  }
+  .page_header .nav_links {
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    background-color: rgb(13, 27, 27);
+    height: 100vh;
+    width: 100%;
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-top: 1px solid rgb(174, 154, 154);
+    z-index: 9999;
+  }
+  .page_header .nav_links ul {
+    display: block;
+    padding: 10px 0px;
+  }
+  .page_header .nav_links ul li a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 50%;
+    padding: 7px 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    font-size: 17px;
+  }
+  .page_header .nav_links ul li {
+    margin: 0px;
+    position: relative;
+  }
+  .page_header .nav_links ul li a::before {
+    display: none;
+  }
+  .page_header .nav_links ul li a:hover {
+    color: rgb(17, 251, 244);
+  }
+  .page_header .nav_links.main {
+    left: 0%;
+    border-radius: unset;
+    display: unset;
+    margin: 0px;
+  }
+  .page_header .nav_links.main:hover {
+    box-shadow: unset;
+    overflow: auto;
+    /* padding: 24px 0px; */
+  }
+  .hero_section .hero_title {
+    font-size: 48px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .section {
+    padding: 100px 0px;
+    overflow: hidden;
+  }
+  .partner_col .main_title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .partner_row .partner_col.padding {
+    padding: 0px;
+  }
+  .partner_card {
+    margin-bottom: 30px;
+  }
+  .choose_col h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+    font-weight: 600;
+    max-width: 307px;
+    line-height: 48px;
+  }
+  .section_title p {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  .mission_title p {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .form_col strong {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+  .form_col {
+    margin-bottom: 20px;
+  }
+  .study_col {
+    margin-bottom: 35px;
+  }
+  .hero_title {
+    margin-top: 70px;
+  }
+  .partner_row {
+    margin-bottom: 35px;
+  }
+  .auth_btn a {
+    padding: 9px 37px;
+    font-size: 18px;
+  }
+  .logo a img {
+    /* width: 80%; */
+    width: 100%;
+  }
+  .mission_title {
+    text-align: center;
+    width: 100%;
+    bottom: 71px;
+  }
+  .choose_content a svg {
+    margin-left: 10px;
+  }
+  .adds_col h2 {
+    font-size: 29px;
+    margin: 35px 0px;
+    line-height: 44px;
+    font-weight: 600;
+  }
+  .number_mark h3 {
+    font-size: 48px;
+  }
+  .number_mark span {
+    font-size: 14px;
+  }
+  .idication_line {
+    margin-bottom: 54px;
+  }
+  .footer_row {
+    display: block;
+    width: 100%;
+  }
+  .footer_small_wrapper {
+    display: block;
+    width: 100%;
+  }
+  .footer_col {
+    width: 100%;
+  }
+  .footer_col.min {
+    width: 100%;
+  }
+  .blog_title p {
+    font-size: 32px;
+  }
+  .footer_small_wrapper .footer_col.min {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .footer_small_wrapper .footer_col.sem {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .copy_right {
+    display: block;
+  }
+  .social_icon {
+    margin-bottom: 15px;
+  }
+  .footer_col button {
+    width: 85%;
+  }
+  .footer_col input {
+    width: 100%;
+  }
+  .listing span {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .testimonial_wrapper {
+    padding: 15px;
+  }
+  .hero_section .swiper-slide {
+    height: 100%;
+  }
+  .hero_section {
+    overflow: hidden;
+  }
+  .choose_card {
+    padding: 20px;
+  }
+  .header_wrapper {
+    display: block;
+  }
+  .page_header {
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 2px;
+  }
+  .auth_btn {
+    position: absolute;
+    right: 22px;
+    bottom: 21px;
+  }
+  .page_header .nav_wrapper {
+    display: block;
+    height: 164px;
+  }
+  .nav_img img {
+    width: 200px;
+  }
+  .page_header .nav_links ul li a span {
+    display: none;
+  }
+  .nav_links ul li:hover .dropdown {
+    min-width: unset;
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    overflow: auto;
+  }
+  .icon button {
+    color: rgb(0, 251, 244);
+    height: 24px;
+    width: 48px;
+    border-radius: 13px;
+    background: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid rgb(0, 251, 244);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: translate(-50%, 50%);
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_links ul li .dropdown.main {
+    display: block;
+  }
+  .nav_links ul li .dropdown {
+    display: none;
+  }
+  .page_header .nav_links .dropdown li a {
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  .workflow p {
+    font-size: 14px;
+  }
+  .partner_col .partner_discription {
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(164, 166, 166);
+  }
+  .partner_numbring {
+    display: block;
+  }
+  .number_mark {
+    margin-bottom: 10px;
+  }
+  .study_content {
+    visibility: visible;
+    opacity: 1;
+  }
+  .study_col .study_content svg {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+  }
+  .testimonial_wrapper p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 46px;
+  }
+  .choose_min_row .row {
+    display: block;
+  }
+  .choose_min_row .col {
+    margin-bottom: 35px;
+  }
+  .coustem_container .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .adds_part_row.margin {
+    margin-bottom: 80px;
+  }
+  .hero_main_wrapper {
+    padding: 150px 0px 250px;
+  }
+  .banner_discription {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .partner_cards_row {
+    margin-top: 190px;
+  }
+  .choose_col p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .mission_wrapper {
+    display: block;
+  }
+  .study_image_profile {
+    width: 100%;
+  }
+  .blog_col {
+    margin-bottom: 30px;
+  }
+  .blog_content a {
+    margin: 20px 0px;
+    font-size: 22px;
+  }
+  .footer_log a img {
+    width: 100%;
+  }
+  .footer_log p {
+    margin-bottom: 30px;
+  }
+  .testimonial_wrapper svg path {
+    fill: rgb(0, 0, 0);
+  }
+  .profile_testimonial {
+    padding: 20px 0px;
+  }
+  .logo{
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  .nav_img{
+    position: relative;
+    top: 23px;
+  }
+  .trusted_section .col{
+    text-align: center;
+  }
+  .trusted_section .col img{
+    max-width: 300px;
+  }
+  .choose_content{
+    margin-top: 75px;
+  }
+  .choose_content a{
+    display: block;
+  }
+}
